@@ -1,11 +1,12 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  background-color: #f4f4f9;
 }
 
 button {
   padding: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   background-color: black;
   color: white;
@@ -13,7 +14,8 @@ button {
   cursor: pointer;
 }
 
-h3, h4 {
+h3,
+h4 {
   margin-bottom: 0;
 }
 
@@ -76,12 +78,13 @@ nav a:hover {
   margin-bottom: 16px;
 }
 
-#add-comment-form input, textarea {
+#add-comment-form input,
+textarea {
   display: block;
   width: 300px;
   padding: 8px;
   border-radius: 8px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   border: 2px solid black;
   margin-bottom: 16px;
@@ -91,7 +94,8 @@ nav a:hover {
   width: 320px;
 }
 
-#upvotes-section button, p {
+#upvotes-section button,
+p {
   display: inline-block;
   margin-right: 16px;
 }
@@ -100,3 +104,55 @@ nav a:hover {
   border-bottom: 2px solid black;
   padding: 16px;
 }
+
+/* login page */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.container h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Input field styling */
+.container input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #f5c6cb;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
