@@ -20,6 +20,8 @@ h4 {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   border-bottom: 4px solid black;
   text-align: center;
   position: fixed;
